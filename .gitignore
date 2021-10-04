@@ -1,4 +1,8 @@
 node_modules/
 dist/
 npm-debug.log
+<<<<<<< HEAD
 yarn-error.log
+=======
+yarn-error.log
+>>>>>>> 692fa103b7b684edbafc32de83d24be68f735e9d
