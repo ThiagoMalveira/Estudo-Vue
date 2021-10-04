@@ -15,8 +15,8 @@
                         <v-col></v-col>
                         <v-form>
                           <v-text-field
-                            label="Matricula"
-                            v-model="aluno.matricula"
+                            label="Nome"
+                            v-model="usuario.nome"
                             outlined
                             append-icon="mdi-account"
                             name="Email"
@@ -25,7 +25,7 @@
                           />
                           <v-text-field
                             label="Email"
-                            v-model="aluno.email"
+                            v-model="usuario.email"
                             outlined
                             append-icon="mdi-email"
                             name="Email"
@@ -34,7 +34,7 @@
                           />
                           <v-text-field
                             label="Password"
-                            v-model="aluno.senha"
+                            v-model="usuario.senha"
                             name="password"
                             type="password"
                             append-icon="mdi-lock"
@@ -61,7 +61,7 @@
 export default {
     data(){
       return {
-        aluno: {
+        usuario: {
           nome: "",
           senha: "",
           email: ""
@@ -74,8 +74,8 @@ export default {
       },
       CriarUsuario(){
         this.$http
-        .post("auth/register", this.aluno)
-        .then(resposta => console.log(resposta))
+        .post("auth/register", this.usuario)
+        .then(resposta => console.log(resposta), this.$router.push({ name: 'home'}))
         .catch(erro => console.log(erro))
       }
     }
