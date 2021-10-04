@@ -4,7 +4,7 @@ let DB;
 
 export default {
 
-	async getDB() {
+	async getDB(){
 		return new Promise((resolve, reject) => {
 
 			if(DB)return resolve(DB); 
