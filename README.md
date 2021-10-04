@@ -10,14 +10,14 @@ Utilize cd VueTest para entrar na pasta do projeto
 
 ``` 
 dê um npm install na pasta raiz do projeto
-após isso entre na pasta src/api/fake-rest-api utiliznado o comando
-cd src/api/fake-rest-api e utilize o comando npm install
+após isso vá até o link https://github.com/viniciosneves/fake-rest-api e clone o projeto
+após clonar o projeto entre nele utilizando cd fake-rest-api e dê um npm install na pasta raiz do projeto fake-rest-api
 ```
 
 ### Inicializando o projeto
 
 ```
-Ainda dentro da pasta src/api/fake-rest-api utilize o comando npm run start-auth para inicializar a api de login
+Ainda dentro do projeto fake-rest-api utilize o comando npm run start-auth para inicializar a api de login
 
 após isso abra uma segunda janela do terminal e vá até a pasta raiz do projeto VueTest e utilize o comando npm run serve e clique segurando a tecla ctrl no link gerado no terminal
 ```
