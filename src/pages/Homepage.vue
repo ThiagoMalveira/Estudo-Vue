@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="5" v-for="(aluno,idx) in alunos" :key="idx">
+      <v-col cols="2" v-for="(aluno,idx) in alunos" :key="idx">
         <aluno :aluno="aluno" @delete="deleteAluno" @edit="editaluno" />
       </v-col>
     </v-row>
@@ -10,7 +10,7 @@
         <v-col>
           <v-btn @click="addAluno">Adicionar aluno</v-btn>
         </v-col>
-        <v-col>
+        <v-col cols="2">
           <v-btn @click="reportAluno">Relatório de alunos</v-btn>
         </v-col>
       </v-row>
