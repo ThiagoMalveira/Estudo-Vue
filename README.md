@@ -1,10 +1,14 @@
 # Estudo Vue
 
 ## Clonando o Projeto
-```
+
 Após dar um git clone no projeto
-Utilize cd VueTest para entrar na pasta do projeto
+Utilize
 ```
+cd Estudo-vue
+```
+para entrar na pasta do projeto
+
 
 ### Instalando o projeto
 
