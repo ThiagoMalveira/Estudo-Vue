@@ -54,9 +54,14 @@ Crie um login e senha utilizando a aplicação e entre utilizando a pagina da Ho
 ### O que foi utilizado no projeto
 
 VueJs Versão 2.6.5
+#
 Vue-Router Versão 3.0.3
+#
 VueX versão 3.0.1
+#
 Axios versão 0.22.0
+#
 Vuetify versão 2.1.0
+#
 Node 14.18.1
 
